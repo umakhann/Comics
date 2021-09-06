@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        tools:srcCompat="@drawable/compass"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Compass"
+        android:textColor="@color/images_color"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/quando"
+        android:textSize="11sp"
+        android:layout_gravity="bottom|center"/>
+
+
+</androidx.cardview.widget.CardView>

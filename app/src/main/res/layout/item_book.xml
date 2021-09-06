@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/image_of_book"
+        android:layout_width="120dp"
+        android:layout_height="190dp"
+        tools:srcCompat="@drawable/book1"
+        android:layout_margin="5dp"
+
+       />
+
+    <TextView
+        android:text="Lorem Ipsum"
+        android:id="@+id/name_of_book"
+        style="@style/book_name"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:text="Lorem Ipsum Dolores"
+        android:id="@+id/title_of_book"
+        style="@style/book_title"
+        android:textColor="@color/images_color"
+
+        android:ellipsize="end"
+        android:maxLines="3"/>
+
+</LinearLayout>
